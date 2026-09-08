@@ -11,3 +11,10 @@ screen MapUI:
         idle "map/house1_idle.png"
         hover "map/house1_hover.png"
         action Jump ("house1_pressed")
+    
+    imagebutton:
+        xpos 596
+        ypos 165
+        idle "map/house2_idle.png"
+        hover "map/house2_hover.png"
+        action Jump ("house2_pressed")
